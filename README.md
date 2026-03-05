@@ -1,5 +1,5 @@
 # Projekt startowy
-
+ABCD
 **Opanowanie systemu kontroli wersji Git, platformy GitHub oraz przygotowanie lokalnego środowiska programistycznego dla wybranego frameworka (np. Django, React, itp.)**
 
 ### Wymagania
