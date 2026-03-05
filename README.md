@@ -1,6 +1,5 @@
 # Projekt startowy
 ABCD
->>>>>>> eb496fa6f1023ce904367757a18c7de3ece34fc4
 **Opanowanie systemu kontroli wersji Git, platformy GitHub oraz przygotowanie lokalnego środowiska programistycznego dla wybranego frameworka (np. Django, React, itp.)**
 
 ### Wymagania
