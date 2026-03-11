@@ -1,0 +1,14 @@
+<html>
+    <ul> 
+    <!-- Iterate over object_list -->
+    {% for object in object_list %} 
+    <!-- Display Objects -->
+    <li>{{ object.title }}</li> 
+    <li>{{ object.content }}</li>
+    <li>{{ object.author }}</li>
+    <li>{{ object.created_at }}</li>
+    <li>{{ object.published_at }}</li>  
+    <hr> 
+    {% endfor %} 
+</ul>
+</html>
