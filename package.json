@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.20.0",
+    "router": "^2.2.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^6.0.1"
+  },
+  "type": "module",
+  "name": "integration-lab-1",
+  "version": "1.0.0",
+  "description": "ABCD\r **Opanowanie systemu kontroli wersji Git, platformy GitHub oraz przygotowanie lokalnego środowiska programistycznego dla wybranego frameworka (np. Django, React, itp.)**",
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lisek324/integration-lab-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lisek324/integration-lab-1/issues"
+  },
+  "homepage": "https://github.com/Lisek324/integration-lab-1#readme"
+}
