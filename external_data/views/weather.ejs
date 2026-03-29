@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pogoda</title>
+</head>
+<body>
+    <h1>Aktualna pogoda Express.js</h1>
+
+    <% if (weather) { %>
+        <p>Szerokość geograficzna: <%= latitude %></p>
+        <p>Długość geograficzna: <%= longitude %></p>
+        <p>Temperatura: <%= weather.temperature %> °C</p>
+        <p>Prędkość wiatru: <%= weather.windspeed %> km/h</p>
+        <p>Kierunek wiatru: <%= weather.winddirection %>°</p>
+        <p>Czas pomiaru: <%= weather.time %></p>
+    <% } else { %>
+        <p><%= error %></p>
+    <% } %>
+</body>
+</html>

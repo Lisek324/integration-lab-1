@@ -2,6 +2,7 @@ import express, { json } from 'express';
 import { router } from './api/router.js'; 
 const PORT = 3000; 
 const HOST = 'localhost' ; 
+
 const app = express(); 
  
 
