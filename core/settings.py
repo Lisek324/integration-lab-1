@@ -26,7 +26,11 @@ SECRET_KEY = 'django-insecure-9&v)7u^rk^eqlk^^nw1!z2b(#u+@()sv6d6^rfpol8w8)3ek^n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'integration-lab-1-api.onrender.com',
+    os.environ.get('RENDER_EXTERNAL_HOSTNAME', ''),
+    '*',  
+]
 
 
 # Application definition
