@@ -1,6 +1,5 @@
-# tests/test_views.py
+#tests/test_views.py
 from django.test import TestCase
-
 
 class TestBlogPage(TestCase):
     def test_blog_page_status_code(self):
