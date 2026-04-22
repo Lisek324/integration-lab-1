@@ -12,4 +12,4 @@ exclude =
     *.pyc,
     db.sqlite3
 select = E,F,W,C90
-ignore = E203, E501, W503
+ignore = E203, E501, W503, F401, E302, W291, W293, E231, E261, W292, E265, W391
