@@ -30,7 +30,5 @@ jobs:
           flake8 .
 
       - name: Run unit tests (pytest)
-        env:
-          DJANGO_SETTINGS_MODULE: integration-lab-1.settings
         run: |
           pytest
